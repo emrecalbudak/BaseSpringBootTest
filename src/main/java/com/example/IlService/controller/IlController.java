@@ -17,7 +17,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/iller")
-@AllArgsConstructor // kurucu metot oluşturur
+@AllArgsConstructor // parametreli kurucu metot oluşturur
 public class IlController {
 
     private final IlService ilService;
